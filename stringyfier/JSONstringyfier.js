@@ -27,15 +27,18 @@ Andrea Giammarchi 2007
 */
 
 JSONstring={
+	n:0,
 	compactOutput:false, 		
 	includeProtos:false, 	
 	includeFunctions: false,
 	detectCirculars:true,
 	restoreCirculars:true,
-	make:function(arg,restore) {
-		this.restore=restore;
-		this.mem=[];this.pathMem=[];
-		return this.toJsonStringArray(arg).join('');
+	make:function(arg,restore) {//this.n = this.n+1; if ( this.n ==100) return '';
+		this.restore=restore; //alert("hi");
+		this.mem=[];this.pathMem=[]; //alert(this.toJsonStringArray(arg).join(''));
+		try {
+		return  JSON.stringify(arg,null,2);//this.toJsonStringArray(arg).join('');
+	}catch(e) { return ""}
 	},
 	toObject:function(x){
 		if(!this.cleaner){
@@ -139,5 +142,5 @@ JSONstring={
 		}
 	}
 };
-export.stringyfier=JSONstring.make;
+exports.stringyfier=JSONstring;
 })();
