@@ -1,0 +1,7 @@
+created: 20140513223900482
+modified: 20140515174600384
+title: WidgetTreeViewer
+type: text/vnd.tiddlywiki
+
+<$widget-tree-viewer items='["parseTreeNode","children","variables"]'>
+<$widget-tree-viewer items='["parseTreeNode","children","variables" ]' root="$tw.rootWidget.children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0]">
