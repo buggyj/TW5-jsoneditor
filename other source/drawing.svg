@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="1100"
+   height="1200"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.3.1 r9886"
+   inkscape:export-filename="/media/3497f82e-3b95-41de-90af-df905eceeab4/data/radice/firefoxextension/Tw513/plugins/bj/WidgetTreeViewer/files/folder.gif.png"
+   inkscape:export-xdpi="1.8"
+   inkscape:export-ydpi="1.8"
+   sodipodi:docname="New document 1">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="0.35"
+     inkscape:cx="375"
+     inkscape:cy="544.45121"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="true"
+     inkscape:window-width="1301"
+     inkscape:window-height="744"
+     inkscape:window-x="65"
+     inkscape:window-y="24"
+     inkscape:window-maximized="1">
+    <inkscape:grid
+       type="xygrid"
+       id="grid2991"
+       empspacing="5"
+       visible="true"
+       enabled="true"
+       snapvisiblegridlinesonly="true" />
+  </sodipodi:namedview>
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,147.6378)">
+    <path
+       sodipodi:type="star"
+       style="fill:#999999;stroke:#000000;stroke-width:10;stroke-miterlimit:4;stroke-opacity:1;stroke-dasharray:none"
+       id="path2993"
+       sodipodi:sides="3"
+       sodipodi:cx="120"
+       sodipodi:cy="132.36218"
+       sodipodi:r1="411.8252"
+       sodipodi:r2="205.9126"
+       sodipodi:arg1="0.50709852"
+       sodipodi:arg2="1.5542961"
+       inkscape:flatsided="false"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 479.99999,332.36218 -356.60254,5.88457 -356.60253,5.88457 L -59.999989,32.362174 113.20509,-279.40695 296.60254,26.477623 z"
+       inkscape:transform-center-x="-120.80535"
+       inkscape:transform-center-y="-0.15323342"
+       transform="matrix(-0.0194887,1.1008703,-1.1734203,-0.01891062,476.84978,326.34198)"
+       inkscape:export-xdpi="2.6661947"
+       inkscape:export-ydpi="2.6661947"
+       inkscape:export-filename="/media/3497f82e-3b95-41de-90af-df905eceeab4/data/radice/firefoxextension/Tw513/plugins/bj/WidgetTreeViewer/files/folder.gif.png" />
+  </g>
+</svg>

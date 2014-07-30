@@ -1,9 +1,9 @@
 {
-	"title": "$:/plugins/bj/jsoneditor",
-	"description": "editor of json!",
+	"title": "$:/plugins/bj/widgettreeviewer",
+	"description": "",
 	"author": "Jeffrey Wilkinson (BJ)",
-	"version": "0.0.5",
+	"version": "0.0.1",
 	"core-version": ">=5.0.13",
-	"source": "https://github.com/buggyj/TW5-jsoneditor",
+	"source": "https://github.com/buggyj/TW5-jsoneditor/tree/widget-tree-viewer",
 	"plugin-type": "plugin"
 }

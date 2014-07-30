@@ -1,7 +1,63 @@
-created: 20140513223900482
-modified: 20140515174600384
+created: 20140723223900482
+modified: 20140729174600384
 title: WidgetTreeViewer
 type: text/vnd.tiddlywiki
 
-<$widget-tree-viewer items='["parseTreeNode","children","variables"]'>
-<$widget-tree-viewer items='["parseTreeNode","children","variables" ]' root="$tw.rootWidget.children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0]">
+\define tabsheader(tabsList,default,state:"$:/state/tab",class)
+<div class="tw-tab-set $class$">
+<div class="tw-tab-buttons $class$">
+<$list filter="$tabsList$" variable="currentTab">
+<$button set="$:/state/tab<<currentTiddler>>" setTo=<<currentTab>> default="$default$" selectedClass="tw-tab-selected">
+<$macrocall $name="currentTab" $type="text/plain" $output="text/plain"/>
+</$button>
+</$list>
+</div><div class="tw-tab-divider $class$"/><div class="tw-tab-content $class$">
+</div>
+</div>
+\end
+
+! Introduction
+
+The widget-tree-viewer widget displays a colapsible view of the widget tree. 
+It is only for demonstation/development - it may not be reliable and should not be used in live wikis.
+
+
+The view is created upon creation and is static and there will be a delay while the view is being constructed.
+
+|!Attribute |!Description |
+|items  |Json list containing the names of widget fields to be displayed.  |
+|root |String specifying the location within the tree from where to start creating the view|
+
+! Examples
+
+<<tabsheader "[[Select a Tab]] [[From Base]] [[From dropzone]]" "[[From Base]]">>
+<!------------------------------------------------------------------------------------->
+<$reveal type='match' state='$:/state/tab<<currentTiddler>>' default='Select a Tab' text='Select a Tab'>
+
+!!!Select a tab for a demonstration (then wait a bit....)
+
+</$reveal>
+<!------------------------------------------------------------------------------------->
+<$reveal type='match' state='$:/state/tab<<currentTiddler>>'  text='From Base'>
+
+``
+
+<$widget-tree-viewer items='["parseTreeNode","children","variables"]'/>
+
+``
+
+<$widget-tree-viewer items='["parseTreeNode","children","variables"]'/>
+</$reveal>
+<!------------------------------------------------------------------------------------>
+<$reveal type='match' state='$:/state/tab<<currentTiddler>>' text='From dropzone'>
+
+``
+
+<$widget-tree-viewer items='["parseTreeNode","children","variables" ]' root="$tw.rootWidget.children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0]"/>
+
+
+``
+
+<$widget-tree-viewer items='["parseTreeNode","children","variables" ]' root="$tw.rootWidget.children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0].children[0]"/>
+
+</$reveal>

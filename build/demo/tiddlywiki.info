@@ -1,6 +1,6 @@
 {
 	"plugins": [
-		"bj/jsoneditor"
+		"bj/WidgetTreeViewer"
 	],
 	"themes": [
 		"tiddlywiki/vanilla",

@@ -1,5 +1,5 @@
 /*\
-title: $:/macros/bj/jsoneditor/stringyfier.js
+title: $:/macros/bj/WidgetTreeViewer/stringyfier.js
 type: application/javascript
 module-type: global
 \*/

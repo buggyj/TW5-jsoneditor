@@ -1,9 +1,8 @@
 /*\
-title: $:/plugins/bj/jsoneditor/edit-json.js
+title: $:/plugins/bj/WidgetTreeViewer/edit-json.js
 type: application/javascript
 module-type: widget
 
-jsoneditor adaptor
 
 \*/
 (function(){
@@ -20,7 +19,7 @@ var EditJsonWidget = function(parseTreeNode,options) {
 	this.initialise(parseTreeNode,options);
 };
 if($tw.browser) {
-	var JSONeditor=require("$:/plugins/bj/jsoneditor/JSONeditor.js").JSONeditor;
+	var JSONeditor=require("$:/plugins/bj/WidgetTreeViewer/JSONeditor.js").JSONeditor;
 }
 /*
 Inherit from the base widget class
@@ -52,7 +51,7 @@ EditJsonWidget.prototype.render = function(parent,nextSibling) {
 	parent.insertBefore(domNode,domNode2);
 
 	this.instance=JSONeditor.start('jsoneditortree'+newid,domNode2.firstChild.firstChild,this.root,
-									'$:/plugins/bj/jsoneditor/',this.format,this.items);
+									'$:/plugins/bj/WidgetTreeViewer/',this.format,this.items);
 	var instance = this.instance;
 
 	newid++;
@@ -99,7 +98,11 @@ Compute the internal state of the widget
 EditJsonWidget.prototype.execute = function() {
 	// Get our parameters
 	this.root = this.getAttribute("root","$tw.rootWidget");
+	try {
 	eval("this.root="+this.root);
+	} catch (e) {
+	this.root = $tw.rootWidget;
+	}	
 	this.items = JSON.parse(this.getAttribute("items","[]"));
 	this.onkeyupdate = "no"; 
 

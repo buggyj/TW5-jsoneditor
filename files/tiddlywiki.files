@@ -4,7 +4,7 @@
 			"file": "docNode.gif",
 			"fields": {
 				"type": "image/png",
-				"title": "$:/plugins/bj/jsoneditor/docNode.gif",
+				"title": "$:/plugins/bj/WidgetTreeViewer/docNode.gif",
 				"module-type": "library"
 			}
 		},
@@ -12,7 +12,7 @@
 			"file": "folderNodeLastFirst.gif",
 			"fields": {
 				"type": "image/png",
-				"title": "$:/plugins/bj/jsoneditor/folderNodeLastFirst.gif",
+				"title": "$:/plugins/bj/WidgetTreeViewer/folderNodeLastFirst.gif",
 				"module-type": "library"
 			}
 		},
@@ -20,7 +20,7 @@
 			"file": "folderNodeLast.gif",
 			"fields": {
 				"type": "image/png",
-				"title": "$:/plugins/bj/jsoneditor/folderNodeLast.gif",
+				"title": "$:/plugins/bj/WidgetTreeViewer/folderNodeLast.gif",
 				"module-type": "library"
 			}
 		},
@@ -28,7 +28,7 @@
 			"file": "doc.gif",
 			"fields": {
 				"type": "image/png",
-				"title": "$:/plugins/bj/jsoneditor/doc.gif",
+				"title": "$:/plugins/bj/WidgetTreeViewer/doc.gif",
 				"module-type": "library"
 			}
 		},
@@ -36,7 +36,7 @@
 			"file": "docNodeLastFirst.gif",
 			"fields": {
 				"type": "image/png",
-				"title": "$:/plugins/bj/jsoneditor/docNodeLastFirst.gif",
+				"title": "$:/plugins/bj/WidgetTreeViewer/docNodeLastFirst.gif",
 				"module-type": "library"
 			}
 		},
@@ -44,7 +44,7 @@
 			"file": "folderNodeOpen.gif",
 			"fields": {
 				"type": "image/png",
-				"title": "$:/plugins/bj/jsoneditor/folderNodeOpen.gif",
+				"title": "$:/plugins/bj/WidgetTreeViewer/folderNodeOpen.gif",
 				"module-type": "library"
 			}
 		},
@@ -52,7 +52,7 @@
 			"file": "folderNodeOpenLastFirst.gif",
 			"fields": {
 				"type": "image/png",
-				"title": "$:/plugins/bj/jsoneditor/folderNodeOpenLastFirst.gif",
+				"title": "$:/plugins/bj/WidgetTreeViewer/folderNodeOpenLastFirst.gif",
 				"module-type": "library"
 			}
 		},
@@ -60,7 +60,7 @@
 			"file": "docNodeLast.gif",
 			"fields": {
 				"type": "image/png",
-				"title": "$:/plugins/bj/jsoneditor/docNodeLast.gif",
+				"title": "$:/plugins/bj/WidgetTreeViewer/docNodeLast.gif",
 				"module-type": "library"
 			}
 		},
@@ -68,7 +68,7 @@
 			"file": "folderNode.gif",
 			"fields": {
 				"type": "image/png",
-				"title": "$:/plugins/bj/jsoneditor/folderNode.gif",
+				"title": "$:/plugins/bj/WidgetTreeViewer/folderNode.gif",
 				"module-type": "library"
 			}
 		},
@@ -76,7 +76,7 @@
 			"file": "folder.gif",
 			"fields": {
 				"type": "image/png",
-				"title": "$:/plugins/bj/jsoneditor/folder.gif",
+				"title": "$:/plugins/bj/WidgetTreeViewer/folder.gif",
 				"module-type": "library"
 			}
 		},
@@ -84,7 +84,7 @@
 			"file": "vertLine.gif",
 			"fields": {
 				"type": "image/png",
-				"title": "$:/plugins/bj/jsoneditor/vertLine.gif",
+				"title": "$:/plugins/bj/WidgetTreeViewer/vertLine.gif",
 				"module-type": "library"
 			}
 		},
@@ -92,7 +92,7 @@
 			"file": "JSONeditor.js",
 			"fields": {
 				"type": "application/javascript",
-				"title": "$:/plugins/bj/jsoneditor/JSONeditor.js",
+				"title": "$:/plugins/bj/WidgetTreeViewer/JSONeditor.js",
 				"module-type": "library"
 			}
 		},
@@ -100,7 +100,7 @@
 			"file": "folderOpen.gif",
 			"fields": {
 				"type": "image/png",
-				"title": "$:/plugins/bj/jsoneditor/folderOpen.gif",
+				"title": "$:/plugins/bj/WidgetTreeViewer/folderOpen.gif",
 				"module-type": "library"
 			}
 		},
@@ -108,7 +108,7 @@
 			"file": "folderNodeFirst.gif",
 			"fields": {
 				"type": "image/png",
-				"title": "$:/plugins/bj/jsoneditor/folderNodeFirst.gif",
+				"title": "$:/plugins/bj/WidgetTreeViewer/folderNodeFirst.gif",
 				"module-type": "library"
 			}
 		},
@@ -116,7 +116,7 @@
 			"file": "folderNodeOpenFirst.gif",
 			"fields": {
 				"type": "image/png",
-				"title": "$:/plugins/bj/jsoneditor/folderNodeOpenFirst.gif",
+				"title": "$:/plugins/bj/WidgetTreeViewer/folderNodeOpenFirst.gif",
 				"module-type": "library"
 			}
 		},
@@ -124,7 +124,7 @@
 			"file": "folderNodeOpenLast.gif",
 			"fields": {
 				"type": "image/png",
-				"title": "$:/plugins/bj/jsoneditor/folderNodeOpenLast.gif",
+				"title": "$:/plugins/bj/WidgetTreeViewer/folderNodeOpenLast.gif",
 				"module-type": "library"
 			}
 		}
