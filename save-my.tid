@@ -1,4 +1,4 @@
-title: $:/core/save/all
+title: $:/core/save/my
 
 \define saveTiddlerFilter()
 [is[tiddler]] -[prefix[$:/state/popup/]] -[[$:/HistoryList]] -[[$:/boot/boot.css]] -[type[application/javascript]library[yes]] -[[$:/boot/boot.js]] -[[$:/boot/bootprefix.js]] +[sort[title]] -[[$:/core]]
